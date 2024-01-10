@@ -1,0 +1,4 @@
+2022-11-30 19:31:58,481 - DEBUG - [__main__] processing data in database 
+2022-11-30 19:31:58,482 - DEBUG - [connectDB] connect to database 
+2022-11-30 19:31:58,491 - DEBUG - [cursorDB] cursor execution select VM , CPUs , Memory , `Provisioned MB` from vinfo limit 5  
+2022-11-30 19:31:58,493 - DEBUG - [disconnectDB] disconnect from database 

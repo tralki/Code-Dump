@@ -1,0 +1,9 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/tab_monitorados"
+        android:title="Ativos Monitorizados"/>
+
+    <item
+        android:id="@+id/tab_noticias"
+        android:title="Notícias"/>
+</menu>

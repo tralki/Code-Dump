@@ -1,0 +1,27 @@
+package hallo_za_warudo;
+
+import java.lang.Math;
+
+public class Matrizes {
+
+	public static void main(String[] args) {
+		int i;
+		int a = 99;
+		int vp = 0;
+		/*1º*/int v [] = {4,6,2,8};
+		/*2º*/int nums []= {1,2,3,4,5,6,7,8,9}; 
+		/*3º*/for (i=0;i<v.length;i++) {
+			if(a > v[i]) {
+				a = v[i];
+			}
+		}
+		System.out.println("O menor numero de v é " + a);
+		/*4º*/ for (i=0;i<v.length;i++) {
+			vp = v[i] + vp;
+		}
+		vp = vp / v.length;
+		System.out.println("A media de v é " + vp);
+		/*5º*/
+	}
+
+}

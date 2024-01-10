@@ -1,0 +1,63 @@
+
+
+<html>
+<body>
+<h1>Hello World</h1>
+<p id="bool"> 
+    <table>
+        <tr>
+            <th><p>Name: <input id="a"></p></th>
+        </tr>
+        <tr>
+            <th><p>Password: <input id="b"></p></th>
+        </tr>
+        <tr>
+            <th><p>Mobile No.: <input id="c"></p></th>
+        </tr>
+        <tr>
+            <th><p>Email: <input id="d"></p></th>
+        </tr>
+        
+    </table>
+    <button onclick="myFunction()"> Submit </button>
+
+</p>
+        <script>
+            function myFunction(){
+            var name = document.getElementById("a").value;
+            var pass = document.getElementById("b").value;
+            var num = document.getElementById("c").value;
+            var email = document.getElementById("d").value;
+
+            if ( name.length < 6){
+                alert("o nome tem de ter 6 caracteres");
+                return false;
+            }
+            if ( pass.length < 8){
+                alert("a passe tem de ter pelomenos 8 caracteres");
+                return false;
+            }
+            if ( num.length < 9){
+                alert("numero invalido");
+                return false;
+            }
+            var a = 0;
+            for (var i = 0; i < email.length ; i++){
+                if (email[i] == '@'){
+                    a++;
+                }
+                if (email[i] == '.'){
+                    a++;
+                }
+            }
+            if (a < 2){
+                alert("email invalido");
+            }
+            document.getElementById("demo").innerHTML = bool;
+
+            }
+            
+        </script>
+
+</body>
+</html>

@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">ProjetoMobile</string>
+    <string name="asset_list">Lista de Ativos Monitorizados</string>
+    <string name="search">Procurar</string>
+    <string name="back">Voltar</string>
+
+    <string name="change_percent">Change Percent: %s%%</string>
+    <string name="current_price">Current Price: %s</string>
+    <string name="ceo">CEO:</string>
+    <string name="description">Description:</string>
+    <string name="sector">Sector:</string>
+    <string name="price_text">Price: %s</string>
+    <string name="change_percent_text">Change Percent: %s%%</string>
+</resources>

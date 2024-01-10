@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="16dp"
+    android:background="@color/colorLight"
+    android:paddingBottom="5dp">
+
+
+    <CheckBox
+        android:id="@+id/assetCheckbox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginEnd="16dp"
+        android:focusable="false"/>
+
+    <!-- Imagem do Ativo -->
+    <ImageView
+        android:id="@+id/AssetLogo"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:scaleType="centerCrop"
+        tools:ignore="ContentDescription" />
+
+    <!-- Informações do Ativo -->
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:layout_marginStart="16dp">
+
+        <TextView
+            android:id="@+id/AssetSymbol"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Symbol"
+            android:textSize="18sp"
+            android:textColor="@color/colorSecondary"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/AssetPrice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Price"
+            android:textSize="16sp"
+            android:textColor="@color/colorSecondary"/>
+
+        <TextView
+            android:id="@+id/AssetChangePercent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Change Percent"
+            android:textSize="16sp"
+            android:textColor="@color/colorSecondary"/>
+    </LinearLayout>
+    <FrameLayout
+        android:id="@+id/expandedCard"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone">
+
+        <!-- Inclua o layout do card expandido -->
+        <include layout="@layout/item_asset_expanded" />
+    </FrameLayout>
+</LinearLayout>

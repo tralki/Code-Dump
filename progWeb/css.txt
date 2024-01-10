@@ -1,0 +1,12 @@
+Css parte de extilização para uma pagina web
+
+
+Seletor
+{
+    Proparty-name : Proparty-description;
+}
+
+
+in line > internal line > Externel Style > Imported Style > Browser's Default
+
+*  selector universal

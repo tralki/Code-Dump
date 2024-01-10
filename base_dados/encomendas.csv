@@ -1,0 +1,13 @@
+fornecedor;pecas;nome_clientes;numero_cliente;preco;valor_a_pagar
+norauto;oleo;Joaquim_Estrela;10001;28;37
+oscaro;motor;Joana_Ferreira;10002;2500;3375
+michelin;pastilhas_para_travoes;Bernardo_Coelho;10003;25;33
+carglass;limpa_para_brisas;Diogo_Cost;10004;18;24
+norauto;bateria;Bruno_Roque;10005;65;87
+oscaro;luzes;Rafael_Gaspar;10006;118;159
+michelin;peneus;Joaquim_Estrela;10001;40;54
+carglass;vidros;Joana_Ferreira;10002;350;472
+norauto;vidros;Bernardo_Coelho;10003;350;472
+oscaro;sistema_de_som;Diogo_Cost;10004;90;121
+michelin;peneus;Bruno_Roque;10005;40;54
+carglass;limpa_para_brisas;Rafael_Gaspar;10006;18;24
